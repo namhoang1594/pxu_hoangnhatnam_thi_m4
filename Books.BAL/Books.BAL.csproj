@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Books.BAL.Interface\Books.BAL.Interface.csproj" />
+    <ProjectReference Include="..\Books.DAL.Interface\Books.DAL.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
